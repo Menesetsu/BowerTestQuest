@@ -1,0 +1,138 @@
+html, body {
+	height: 100%;
+	background: #fff;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex: 1 1 auto;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 13px;
+	cursor: default;
+}
+
+.window {
+	width: 350px;
+	border: 1px solid #515151;
+	border-radius: 6px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+	background-color: #EEEEEE;
+}
+
+.window._achieved .target {
+	background: #00A910;
+}
+
+.window._achieved .info {
+	visibility: hidden;
+}
+
+.header {
+	padding: 8px 13px;
+	color: #fff;
+	letter-spacing: 0.6px;
+	background-color: #393838;
+}
+
+.content {
+	padding: 12px;
+}
+
+.inner {
+	padding: 9px 0;
+	border: 1px solid #C9C6C6;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.process {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.caption {
+	margin-right: 16px;
+	padding-left: 8px;
+	color: #434242;
+	font-size: 14px;
+}
+
+.bar {
+	position: relative;
+	height: 7px;
+	width: 113px;
+	margin: 3px;
+	outline: 3px solid #C0C0C0;
+	background-color: #C0C0C0;
+}
+
+.load {
+	width: 0;
+	height: 7px;
+	background-color: #0073C4;
+}
+
+.pointer {
+	position: absolute;
+	top: 16px;
+	left: 0;
+	color: #434242;
+	padding-top: 8px;
+	transform: translateX(-50%);
+}
+
+.pointer:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 6px solid #434242;
+}
+
+.target {
+	padding: 2px 8px 3px;
+	border: 1px solid #D1CECE;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(#908B8B, #59585C);
+}
+
+.title {
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	font-size: 12px;
+}
+
+.value {
+	padding-top: 2px;
+	font-size: 18px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 14px;
+	color: #434242;
+}
+
+.icon {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+}

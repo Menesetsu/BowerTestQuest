@@ -1,0 +1,21 @@
+{
+  "name": "bower_test_quest",
+  "homepage": "https://github.com/Menesetsu/BowerTestQuest",
+  "authors": [
+    "Ilya Voronov <ilya@sborkaproject.com>"
+  ],
+  "description": "Test quest",
+  "main": "src/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "reset-css": "^4.0.1"
+  }
+}
